@@ -1,0 +1,32 @@
+li{
+    text-decoration: none;
+    list-style-type: none;
+    width: 80%;
+    height: 90%;
+    border: 1px solid black;
+    padding: 5px 10px 15px 20px;
+    margin-bottom: 20px;
+    box-shadow: 12px 12px 2px 1px rgba(24, 56, 24, 0.2);
+}
+.outer{
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    gap: 10px; /* Adjust spacing between boxes */
+    justify-content: center; /* Center the grid horizontally */
+    align-items: center; 
+}
+
+.profile{
+    font-size: 25px;
+    font-weight: 545;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+.exp{
+    font-size: 16px;
+}
+.desc{
+    font-size: 16px;
+}
+.tech{
+    font-size: 16px;
+}

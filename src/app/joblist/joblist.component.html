@@ -1,0 +1,13 @@
+<p class="joblist_heading"> JOBS</p>
+
+<div *ngIf="!jobItems().length"> 
+    <br><br><br><br>
+    <div class="loader"></div>
+    <div id="loadingp">
+        <p >Loading... </p>
+    </div>
+</div>
+
+<ul >
+        <app-jobpost [job]="jobItems()"></app-jobpost>
+</ul>

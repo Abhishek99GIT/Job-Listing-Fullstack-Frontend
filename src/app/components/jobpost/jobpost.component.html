@@ -1,0 +1,22 @@
+
+    <!-- <h3>{{ job().profile }}</h3>
+    <p><strong>Experience:</strong> {{ job().exp }} years</p>
+    <br>
+    <p>Experience required: {{job().exp}}</p>
+    <br>
+    <p>Description: {{job().desc}}</p>
+    <p>Profile: {{job().profile}}</p>
+    <br>
+    <p>Skills required: {{job().techs.join(',')}}</p>
+    <br> -->
+    <div class="outer">
+        <li *ngFor="let item of job(); let i=index">
+            <div class="post{{i}} jojo">
+                <p class="profile">{{ item.profile }}</p>
+                <p class="exp"><strong>Experience:</strong> {{ item.exp }} years</p>
+                <p class="desc"><strong>Description:</strong> {{ item.desc }}</p>
+                <p class="tech"><strong>Skills required:</strong> {{ item.techs.join(', ') }}</p>
+                </div>
+    
+    </li>
+    </div>
