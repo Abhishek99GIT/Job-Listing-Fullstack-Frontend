@@ -1,5 +1,5 @@
-If you want test this frontend, you have first run my backend springboot, else my Apis wont work in the frontend. 
-I have to more changes to this frontend, for now to shows a home page with an angular routing to a job list that 
+If you want test this frontend, you have to first run my backend springboot. 
+I have to make more changes to this frontend. For now, it shows a home page with an angular routing to a professional job list that 
 is displayed using a get api using my backend spring api key to get all job posts in my mongoDB database.
 
 # FullstackProjectFrontend
