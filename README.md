@@ -1,3 +1,7 @@
+If you want test this frontend, you have first run my backend springboot, else my Apis wont work in the frontend. 
+I have to more changes to this frontend, for now to shows a home page with an angular routing to a job list that 
+is displayed using a get api using my backend spring api key to get all job posts in my mongoDB database.
+
 # FullstackProjectFrontend
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.3.
